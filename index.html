@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your car</title>
+
+    <link rel="stylesheet" href="find_your_car.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+</head>
+<body>
+
+    <section class="hoved_sektion">
+        <div class="sidehoved">
+            <p id="logo1"> SunbeamCars Inc.</p>
+            <div class="login_symbol"><img src="person-black-18dp.svg" alt="Person symbol">Log in</div>
+        </div>
+    </section>
+
+
+  
+
+<form id="formular" class="formular">
+<div class="main-tile-of-grid">
+    <div class="grid-container">
+
+        <div class="grid-item grid-item-1"> <h1>Let us find the best car for you! </h1></div>
+        <div class="grid-item grid-item-2"><h1>🚗</h1> </div>
+
+        <div class="grid-item grid-item-1">Number of people:</div>
+        <div class="grid-item grid-item-2">  
+            
+            <input type="number" value="1" id="persons" max="7" min="1" required>
+            </div>
+
+
+        <div class="grid-item grid-item-1">Number of suitcases:</div>
+        <div class="grid-item grid-item-2">
+
+            <select id="suitcases">
+                <option value="0">0 - only a bag</option>
+                <option value="1">1 suitcase</option>
+                <option value="2">2 suitcases</option>
+                <option value="3">3 suitcases</option>
+                <option value="4">4 suitcases</option>
+            </select>
+
+            </div>
+        <div class="grid-item grid-item-1">I pick it up:</div>
+        <div class="grid-item grid-item-2"> <input type="date" id="Pick-up" name="pick-up"></div>
+
+        <div class="grid-item grid-item-1">I hand in:</div>
+        <div class="grid-item grid-item-2"><input type="date" id="Hand-in" name="hand-in"> </div>
+       
+        <div class="grid-item grid-item-1"></div>
+        <div class="grid-item grid-item-2"><button onclick="myFunction()" type="button">Search</button></div>
+        
+    
+  </div>
+</div>
+ </form>
+
+
+
+<div id="container-for-suzuki">
+    <div class="flex-box-for-type-of-car-1a"><img src="Suzuki.png" alt="Suzuki" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1 id="car-name-suzuki">Suzuki Swift</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Budget <br>
+        Persons: 4 <br>Suitcases: 1
+    </div>
+  
+    <div class="flex-box-for-type-of-car-1b">Price: kr. 596  <p><input id="button" type="submit" value="BOOK NOW" onclick="JeepTransferData()"></div>
+
+</div>
+
+<div id="container-for-mazda">
+    <div class="flex-box-for-type-of-car-1a"><img src="Mazda.png" alt="Mazda" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1 id="car-name-suzuki">Mazda 3</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Standard <br>
+        Persons: 5 <br> Suitcases: 3
+    </div>
+   
+    <div class="flex-box-for-type-of-car-1b">Price: kr. 655  <p><input id="button" type="submit" value="BOOK NOW" onclick="JeepTransferData()"></div>
+   
+</div>
+
+<div id="container-for-citroen">
+    <div class="flex-box-for-type-of-car-1a"><img src="Citroen.png" alt="Citroen" width="200px" height="150px"></div>
+    <div class="flex-box-for-type-of-car-1b"><h1 id="car-name-suzuki">Citroen Grand C4 Piccaso</h1></div>
+    <div class="flex-box-for-type-of-car-1b">Category: Minivan <br>
+        Persons: 7 <br> Suitcases: 4
+    </div>
+   
+    <div class="flex-box-for-type-of-car-1b">Price: kr. 700  <p><input id="button" type="submit" value="BOOK NOW" onclick="JeepTransferData()"></div>
+   
+</div>
+
+
+
+<script src="car_javascript.js"></script>
+<script src="second-page.js"></script>
+
+</div>
+</body>
+</html>

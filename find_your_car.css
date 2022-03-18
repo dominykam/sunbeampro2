@@ -1,0 +1,256 @@
+body {
+    background-color: rgb(221, 225, 240);
+}
+
+#logo1{
+    font-weight: bold;
+}
+
+.hoved_sektion {
+    max-width: 1894px;
+    margin: 0 auto;
+    height:50px;
+
+
+
+
+}
+
+.sidehoved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 15pt;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.login_symbol {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+/* main tile */
+
+h1 {
+    color: rgb(48, 46, 44); ;
+    font-size: 18pt;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 15px;
+
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    margin:auto;
+   margin-left: 150px;
+  margin-top: 40px;
+}
+
+
+
+.main-tile-of-grid{
+    background-color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 46, 44) ;
+    width:700px;
+    height: 400px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+
+.grid-item-1, .grid-item-2  {
+ 
+    padding:10px;
+    
+   
+}
+
+.flex-container {
+    display:grid;
+    grid-template-columns: 200px 200px 280px 200px;
+   
+   
+    width:900px;
+    background-color: white;
+  
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+
+
+
+}
+
+
+
+
+.flex-box-for-type-of-car-1b {
+ 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 46, 44) ;
+    padding:10px;
+    margin-top:29px;
+    margin-left:50px;
+    text-align: center;
+   
+   
+    
+    
+}
+
+
+.flex-box-for-type-of-car-1a {
+ 
+   
+    margin-left:20px;
+   
+    
+    
+}
+
+
+/*js output*/
+
+#container-for-suzuki, #container-for-mazda, #container-for-citroen{
+   
+    display:grid;
+    grid-template-columns: 200px 200px 280px 200px;
+   
+   
+    width:900px;
+    background-color: white;
+  
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+    display:none;
+   
+
+}
+
+
+#carphoto{
+    margin-left: 200px;
+}
+
+
+
+/* LEFT BOX */
+
+.results{
+    background-color: rgb(190, 102, 102);
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: -520px;
+    margin-bottom: 50px;
+    
+   
+}
+
+.box-1{
+    background-color:rgb(243, 177, 240);
+height:300px;
+width: 300px;
+margin-left: 30px;
+border-radius: 10px;
+}
+
+h2{
+    margin: 40px;
+    font-size:20pt;
+    text-align: center;
+}
+
+
+/* ACCESSORY FORM */
+.accessories{
+    background-color: rgb(243, 214, 236);
+    text-align: center;
+    margin-top: -295px;
+    padding-bottom: 20px;
+    width: 750px;
+    padding-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 420px;
+    border-radius: 10px;
+    }
+    
+    h4{
+        margin: 30px;
+        font-weight: bold;
+        font-size: 25pt;
+    }
+    
+    .checkboxes{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 15pt;
+        margin-top: 20px;
+    }
+    
+    #button{
+        background-color: green;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 10pt;
+        color: white;
+        border-radius: 10px;
+    }
+
+
+    /*ALL INCLUSIVE*/
+
+.all{
+    border-style:solid;
+    border-width: 1px;
+    border-color: red;
+    height: 100px;
+    width: 250px;
+margin-top:-150px;
+  margin-left: 1250px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+h3{
+    padding:10px;
+    font-weight: lighter;
+}
+
+/*THIRD PAGE*/
+
+.yourinfo{
+    background-color: rgb(219, 159, 219);
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    margin-left:450px;
+    border-radius: 10px;
+}
+
+.info{
+    font-size: 15pt;
+    font-weight: bold;
+}
